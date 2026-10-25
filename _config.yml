@@ -1,0 +1,16 @@
+title: My Blog
+description: A simple Jekyll blog
+baseurl: ""
+url: ""
+theme: minima
+author:
+  name: Your Name
+  email: your@email.com
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
